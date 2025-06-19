@@ -1,0 +1,105 @@
+/* src/App.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.input-container {
+  background: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.groups-display {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+  min-height: 40px;
+  align-items: center;
+}
+
+.group {
+  background: #e3f2fd;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.group.active {
+  background: #bbdefb;
+  border: 2px solid #64b5f6;
+}
+
+.instructions {
+  background: #e8f5e9;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+  color: #2e7d32;
+}
+
+.suggestions {
+  background: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.suggestions ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.suggestions li {
+  padding: 0.5rem;
+  border-bottom: 1px solid #eee;
+  font-size: 1.1rem;
+}
+
+.suggestions li:last-child {
+  border-bottom: none;
+}
+
+.key-mapping {
+  margin-top: 2rem;
+  background: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th, td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
